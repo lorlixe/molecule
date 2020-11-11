@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/18f2e2cbfa.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<form class="js-validate form-signin p-5">
+   
+    <!-- End Logo -->
+
+    <!-- Title -->
+    <div class="text-center mb-4">
+      <h1 class="h3 mb-0">Please sign in</h1>
+      <p>Signin to manage your account.</p>
+    </div>
+    <!-- End Title -->
+
+    <!-- Input -->
+    <div class="js-form-message mb-3">
+      <div class="js-focus-state input-group form">
+        <div class="input-group-prepend form__prepend">
+          <span class="input-group-text form__text">
+            <span class="fa fa-user form__text-inner"></span>
+          </span>
+        </div>
+        <input type="email" class="form-control form__input" name="email" required
+               placeholder="Email"
+               aria-label="Email"
+               data-msg="Please enter a valid email address."
+               data-error-class="u-has-error"
+               data-success-class="u-has-success">
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <!-- Input -->
+    <div class="js-form-message mb-3">
+      <div class="js-focus-state input-group form">
+        <div class="input-group-prepend form__prepend">
+          <span class="input-group-text form__text">
+            <span class="fa fa-lock form__text-inner"></span>
+          </span>
+        </div>
+        <input type="password" class="form-control form__input" name="password" required
+               placeholder="Password"
+               aria-label="Password"
+               data-msg="Your password is invalid. Please try again."
+               data-error-class="u-has-error"
+               data-success-class="u-has-success">
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <div class="row mb-3">
+      <div class="col-6">
+        <!-- Checkbox -->
+        <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+          <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
+          <label class="custom-control-label" for="rememberMeCheckbox">
+            Remember Me
+          </label>
+        </div>
+        <!-- End Checkbox -->
+      </div>
+
+      <div class="col-6 text-right">
+        <a class="float-right" href="#">Forgot Password?</a>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <button type="submit" class="#">Signin</button>
+    </div>
+
+    <div class="text-center mb-3">
+      <p class="text-muted">Do not have an account? <a href="#">Signup</a></p>
+    </div>
+   
+  </form>
+</body>
+</html> 
