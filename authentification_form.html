@@ -14,79 +14,81 @@
 
 </head>
 <body>
+  <div class="card mx-auto my-4 shadow" style="width: 50rem;">
+      
+  <form class="js-validate form-signin  p-5 "style="width: 50rem">
+    
+      <!-- End Logo -->
 
-<form class="js-validate form-signin p-5">
-   
-    <!-- End Logo -->
+      <!-- Title -->
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-0">Please sign in</h1>
+        <p>Signin to manage your account.</p>
+      </div>
+      <!-- End Title -->
 
-    <!-- Title -->
-    <div class="text-center mb-4">
-      <h1 class="h3 mb-0">Please sign in</h1>
-      <p>Signin to manage your account.</p>
-    </div>
-    <!-- End Title -->
-
-    <!-- Input -->
-    <div class="js-form-message mb-3">
-      <div class="js-focus-state input-group form">
-        <div class="input-group-prepend form__prepend">
-          <span class="input-group-text form__text">
-            <span class="fa fa-user form__text-inner"></span>
-          </span>
+      <!-- Input -->
+      <div class="js-form-message mb-3">
+        <div class="js-focus-state input-group form">
+          <div class="input-group-prepend form__prepend">
+            <span class="input-group-text form__text">
+              <span class="fa fa-user form__text-inner"></span>
+            </span>
+          </div>
+          <input type="email" class="form-control form__input" name="email" required
+                placeholder="Email"
+                aria-label="Email"
+                data-msg="Please enter a valid email address."
+                data-error-class="u-has-error"
+                data-success-class="u-has-success">
         </div>
-        <input type="email" class="form-control form__input" name="email" required
-               placeholder="Email"
-               aria-label="Email"
-               data-msg="Please enter a valid email address."
-               data-error-class="u-has-error"
-               data-success-class="u-has-success">
       </div>
-    </div>
-    <!-- End Input -->
+      <!-- End Input -->
 
-    <!-- Input -->
-    <div class="js-form-message mb-3">
-      <div class="js-focus-state input-group form">
-        <div class="input-group-prepend form__prepend">
-          <span class="input-group-text form__text">
-            <span class="fa fa-lock form__text-inner"></span>
-          </span>
+      <!-- Input -->
+      <div class="js-form-message mb-3">
+        <div class="js-focus-state input-group form">
+          <div class="input-group-prepend form__prepend">
+            <span class="input-group-text form__text">
+              <span class="fa fa-lock form__text-inner"></span>
+            </span>
+          </div>
+          <input type="password" class="form-control form__input" name="password" required
+                placeholder="Password"
+                aria-label="Password"
+                data-msg="Your password is invalid. Please try again."
+                data-error-class="u-has-error"
+                data-success-class="u-has-success">
         </div>
-        <input type="password" class="form-control form__input" name="password" required
-               placeholder="Password"
-               aria-label="Password"
-               data-msg="Your password is invalid. Please try again."
-               data-error-class="u-has-error"
-               data-success-class="u-has-success">
       </div>
-    </div>
-    <!-- End Input -->
+      <!-- End Input -->
 
-    <div class="row mb-3">
-      <div class="col-6">
-        <!-- Checkbox -->
-        <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
-          <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
-          <label class="custom-control-label" for="rememberMeCheckbox">
-            Remember Me
-          </label>
+      <div class="row mb-3">
+        <div class="col-6">
+          <!-- Checkbox -->
+          <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+            <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
+            <label class="custom-control-label" for="rememberMeCheckbox">
+              Remember Me
+            </label>
+          </div>
+          <!-- End Checkbox -->
         </div>
-        <!-- End Checkbox -->
+
+        <div class="col-6 text-right">
+          <a class="float-right " href="#">Forgot Password?</a>
+        </div>
       </div>
 
-      <div class="col-6 text-right">
-        <a class="float-right" href="#">Forgot Password?</a>
+      <div class="mb-3">
+        <button class="btn btn-primary pull-right" type="submit" class="#">Signin</button>
       </div>
-    </div>
 
-    <div class="mb-3">
-      <button type="submit" class="#">Signin</button>
-    </div>
-
-    <div class="text-center mb-3">
-      <p class="text-muted">Do not have an account? <a href="#">Signup</a></p>
-    </div>
-   
-  </form>
+      <div class="text-center mb-3">
+        <p class="text-muted">Do not have an account? <a href="#">Signup</a></p>
+      </div>
+    
+    </form>
+  </div>
 </body>
 </html> 
